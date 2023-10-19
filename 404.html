@@ -51,6 +51,10 @@
 
     
     
+        
+<link rel="stylesheet" href="https://unpkg.com/katex@0.16.7/dist/katex.min.css">
+
+    
     
     
     
@@ -123,6 +127,9 @@
                     <a id="nav-rss-link" class="nav-icon" href="/blog-zm/atom.xml"
                        title="RSS Feed"></a>
                 
+                
+                    <a id="nav-search-btn" class="nav-icon popup-trigger" title="Search">
+                    </a>
                 
             </nav>
             <div id="search-form-wrap">
@@ -205,6 +212,34 @@
 
 
 
+
+    
+<script src="https://unpkg.com/algoliasearch@4.17.1/dist/algoliasearch-lite.umd.js"></script>
+
+    
+<script src="https://unpkg.com/instantsearch.js@4.56.1/dist/instantsearch.production.min.js"></script>
+
+    
+<script src="/blog-zm/js/search.js"></script>
+
+    <script>
+        var CONFIG = {
+            root: '/',
+            algolia: {
+                applicationID: "CCVNRPMO7F",
+                apiKey: "4ef2b18b26330cbd2d6cd44de5cbed61",
+                indexName: "yuan*",
+                hits: {
+                    "per_page": parseInt("10")
+                },
+                labels: {
+                    "input_placeholder": "搜索.....",
+                    "hits_empty": "未发现与 「${query}」相关内容",
+                    "hits_stats": "找到${hits}条结果（用时 ${time} ms）"
+                }
+            }
+        };
+    </script>
 
 
 </div>
