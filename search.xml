@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>搭建博客教程</title>
+    <url>/blog-zm/2023/10/20/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<h1 id="教程来喽"><a href="#教程来喽" class="headerlink" title="教程来喽"></a>教程来喽</h1><ul>
+<li>第一步，下载termux并安装必要的软件包</li>
+</ul>
+<pre><code>pkg install nodejs
+pkg install git
+</code></pre>
+<ul>
+<li><p>第二步,创建并配置GitHub仓库<br><u>在GitHub上创建一个新的仓库，并复制该仓库的URL</u></p>
+</li>
+<li><p>第三步,安装hexo<br><u>在Termux中运行以下命令安装Hexo</u></p>
+</li>
+</ul>
+<pre><code>npm install -g hexo-cli
+</code></pre>
+<ul>
+<li>第四步，初始化Hexo博客<br><u>创建一个新目录并进入该目录，然后运行以下命令初始化Hexo博客</u></li>
+</ul>
+<pre><code>hexo init myblog
+cd myblog
+npm install
+</code></pre>
+<ul>
+<li>配置Hexo博客<br><strong>打开Hexo博客根目录中的_config.yml文件，并进行以下配置</strong></li>
+</ul>
+<p><strong>修改deploy部分的type为git</strong></p>
+<p><strong>修改deploy部分的repo为之前复制的GitHub仓库的URL</strong></p>
+<p><strong>指定deploy部分的branch为gh-pages</strong></p>
+<blockquote>
+<p>如果想要其他主题的话,请自行安装，安装好后,按照主题文档完成配置</p>
+</blockquote>
+<ul>
+<li>第六步，生成静态文件</li>
+</ul>
+<pre><code>hexo generate
+</code></pre>
+<blockquote>
+<p>如果生成失败的话,请检查配置,也可以在评论区告诉我报错信息,我给你说说什么原因,静态文件也有可能不完整</p>
+</blockquote>
+<ul>
+<li>第七步，部署到GitHub<blockquote>
+<p>这一步容易出错,在termux配置好github用户信息,生成并使用ssh密钥,再安装git部署插件,就可以运行以下命令部署了</p>
+</blockquote>
+</li>
+</ul>
+<pre><code>hexo deploy
+</code></pre>
+<p><strong>如果在本地修改了博客，请再次运行hexo generate、hexo deploy命令</strong></p>
+<blockquote>
+<p>出于zm小窝<br><a href="https://yuanzx-ko.github.io/blog-zm/">小窝地址</a><br>zmQQ号:992603016<br>想要自己的网站上友链，请联系<a href="mailto:&#57;&#x39;&#50;&#54;&#48;&#x33;&#x30;&#x31;&#54;&#x40;&#113;&#x71;&#46;&#x63;&#x6f;&#109;">&#57;&#x39;&#50;&#54;&#48;&#x33;&#x30;&#x31;&#54;&#x40;&#113;&#x71;&#46;&#x63;&#x6f;&#109;</a>，把自己的网站信息发过去，会看的<br>一个初二生搭建的博客呀</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>编程</tag>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+</search>
