@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yuanzx-ko.github.io/blog-zm/search/index.html</loc>
+    
+    <lastmod>2023-10-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yuanzx-ko.github.io/blog-zm/2023/10/21/live2d%E7%9C%8B%E6%9D%BF%E5%A8%98%E6%95%99%E7%A8%8B/</loc>
     
     <lastmod>2023-10-21</lastmod>
@@ -65,7 +74,7 @@
 
   
   <url>
-    <loc>https://yuanzx-ko.github.io/blog-zm/tags/%E7%BE%8E%E5%8C%96/</loc>
+    <loc>https://yuanzx-ko.github.io/blog-zm/tags/%E7%BC%96%E7%A8%8B/</loc>
     <lastmod>2023-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -79,7 +88,7 @@
   </url>
   
   <url>
-    <loc>https://yuanzx-ko.github.io/blog-zm/tags/%E7%BC%96%E7%A8%8B/</loc>
+    <loc>https://yuanzx-ko.github.io/blog-zm/tags/%E7%BE%8E%E5%8C%96/</loc>
     <lastmod>2023-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
