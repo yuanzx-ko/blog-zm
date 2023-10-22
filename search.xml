@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>搭建博客教程</title>
-    <url>/blog-zm/2023/10/20/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/</url>
+    <url>/blog-zm/posts/64f5d8a/</url>
     <content><![CDATA[<p>我终于拥有了属于自己的博客!<br> <span id="more"></span></p>
 <h1 id="教程来喽"><a href="#教程来喽" class="headerlink" title="教程来喽"></a>教程来喽</h1><ul>
 <li>第一步，下载termux并安装必要的软件包</li>
@@ -52,7 +52,7 @@ npm install
 </code></pre>
 <p><strong>如果在本地修改了博客，请再次运行hexo generate、hexo deploy命令</strong></p>
 <blockquote>
-<p>出于zm小窝<br><a href="https://yuanzx-ko.github.io/blog-zm/">小窝地址</a><br>zmQQ号:992603016<br>想要自己的网站上友链，请联系<a href="mailto:&#57;&#57;&#x32;&#x36;&#48;&#51;&#x30;&#x31;&#54;&#64;&#x71;&#113;&#x2e;&#99;&#x6f;&#109;">&#57;&#57;&#x32;&#x36;&#48;&#51;&#x30;&#x31;&#54;&#64;&#x71;&#113;&#x2e;&#99;&#x6f;&#109;</a>，把自己的网站信息发过去，会看的<br>一个初二生搭建的博客呀</p>
+<p>出于zm小窝<br><a href="https://yuanzx-ko.github.io/blog-zm/">小窝地址</a><br>zmQQ号:992603016<br>想要自己的网站上友链，请联系<a href="mailto:&#57;&#57;&#50;&#54;&#x30;&#x33;&#x30;&#x31;&#x36;&#64;&#x71;&#113;&#46;&#99;&#111;&#x6d;">&#57;&#57;&#50;&#54;&#x30;&#x33;&#x30;&#x31;&#x36;&#64;&#x71;&#113;&#46;&#99;&#111;&#x6d;</a>，把自己的网站信息发过去，会看的<br>一个初二生搭建的博客呀</p>
 </blockquote>
 <div style="width: fit-content;
           undefined
@@ -76,7 +76,7 @@ npm install
   </entry>
   <entry>
     <title>live2d看板娘教程</title>
-    <url>/blog-zm/2023/10/21/live2d%E7%9C%8B%E6%9D%BF%E5%A8%98%E6%95%99%E7%A8%8B/</url>
+    <url>/blog-zm/posts/8d7eb895/</url>
     <content><![CDATA[<p>添加live2d看板娘可能会导致博客访问速度慢…<br> <span id="more"></span></p>
 <h1 id="可爱的live2d看板娘教程来喽"><a href="#可爱的live2d看板娘教程来喽" class="headerlink" title="可爱的live2d看板娘教程来喽"></a>可爱的live2d看板娘教程来喽</h1><ul>
 <li>第一步,安装live2d模块</li>
@@ -108,7 +108,7 @@ display:
 </code></pre>
 <p><strong>最后再重新生成一下静态文件,部署，就可以看到live2d模型啦</strong></p>
 <blockquote>
-<p>出于zm小窝<br><a href="https://yuanzx-ko.github.io/blog-zm/">小窝地址</a><br>zmQQ号:992603016<br>想要自己的网站上友链，请联系<a href="mailto:&#x39;&#x39;&#x32;&#x36;&#48;&#51;&#x30;&#49;&#54;&#x40;&#113;&#x71;&#x2e;&#x63;&#111;&#109;">&#x39;&#x39;&#x32;&#x36;&#48;&#51;&#x30;&#49;&#54;&#x40;&#113;&#x71;&#x2e;&#x63;&#111;&#109;</a>，把自己的网站信息发过去，会看的<br>一个初二生搭建的博客呀</p>
+<p>出于zm小窝<br><a href="https://yuanzx-ko.github.io/blog-zm/">小窝地址</a><br>zmQQ号:992603016<br>想要自己的网站上友链，请联系<a href="mailto:&#57;&#57;&#50;&#54;&#48;&#51;&#48;&#x31;&#54;&#x40;&#x71;&#x71;&#46;&#x63;&#x6f;&#109;">&#57;&#57;&#50;&#54;&#48;&#51;&#48;&#x31;&#54;&#x40;&#x71;&#x71;&#46;&#x63;&#x6f;&#109;</a>，把自己的网站信息发过去，会看的<br>一个初二生搭建的博客呀</p>
 </blockquote>
 <div style="width: fit-content;
           undefined
