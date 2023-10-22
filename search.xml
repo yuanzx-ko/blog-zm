@@ -1,62 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>live2d看板娘教程</title>
-    <url>/blog-zm/2023/10/21/live2d%E7%9C%8B%E6%9D%BF%E5%A8%98%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<p>添加live2d看板娘可能会导致博客访问速度慢…<br> <span id="more"></span></p>
-<h1 id="可爱的live2d看板娘教程来喽"><a href="#可爱的live2d看板娘教程来喽" class="headerlink" title="可爱的live2d看板娘教程来喽"></a>可爱的live2d看板娘教程来喽</h1><ul>
-<li>第一步,安装live2d模块</li>
-</ul>
-<pre><code>npm install --save hexo-helper-live2d
-</code></pre>
-<ul>
-<li><p>第二步,下载live2d模型<br>新建一个live2dModel文件夹,将下载的live2d模型放进去</p>
-</li>
-<li><p>第三步，在站点配置文件中新增如下内容</p>
-</li>
-</ul>
-<pre><code>live2d:
-  enable: true
-  scriptFrom: local
-  pluginRootPath: live2dw/
-  pluginJsPath: lib/
-  pluginModelPath: assets/
-  tagMode: false
-  debug: false
-  model:
-    use: &lt;u&gt;live2d-widget-model-hibiki&lt;/u&gt; #下载的模型名字
-display:
-   position: right
-   width: 150
-   height: 300
-   mobile:
-     show: true  #手机上是否展示
-</code></pre>
-<p><strong>最后再重新生成一下静态文件,部署，就可以看到live2d模型啦</strong></p>
-<blockquote>
-<p>出于zm小窝<br><a href="https://yuanzx-ko.github.io/blog-zm/">小窝地址</a><br>zmQQ号:992603016<br>想要自己的网站上友链，请联系<a href="mailto:&#x39;&#57;&#x32;&#x36;&#x30;&#51;&#48;&#x31;&#x36;&#64;&#113;&#x71;&#46;&#99;&#111;&#x6d;">&#x39;&#57;&#x32;&#x36;&#x30;&#51;&#48;&#x31;&#x36;&#64;&#113;&#x71;&#46;&#99;&#111;&#x6d;</a>，把自己的网站信息发过去，会看的<br>一个初二生搭建的博客呀</p>
-</blockquote>
-<div style="width: fit-content;
-          undefined
-          undefined
-          padding:8px">
-     <a href="https://liberapay.com/yuan_zm">
-       <svg role="img" style="width: 24px; height:24px; fill:#000000">
-         <path d="M2.32 0A2.321 2.321 0 0 0 0 2.32v19.36A2.321 2.321 0 0 0 2.32 24h19.36A2.32 2.32 0 0 0 24 21.68V2.32A2.32 2.32 0 0 0 21.68 0zm9.208 3.98l-2.27 9.405a2.953 2.953 0 0 0-.073.539.853.853 0 0 0 .09.432.7.7 0 0 0 .334.302c.157.077.378.126.661.147l-.49 2.008c-.772 0-1.38-.1-1.82-.3-.441-.203-.757-.477-.947-.826a2.391 2.391 0 0 1-.278-1.2c.005-.452.068-.933.188-1.445l2.074-8.67zm3.9 3.888c.61 0 1.135.092 1.576.277.44.185.802.438 1.085.76.283.32.493.696.629 1.126.136.43.204.89.204 1.379v.001c0 .794-.13 1.52-.392 2.179a5.16 5.16 0 0 1-1.086 1.706 4.84 4.84 0 0 1-1.665 1.118c-.648.267-1.353.4-2.114.4-.37 0-.74-.033-1.11-.098l-.735 2.956H9.403l2.71-11.298c.435-.13.934-.248 1.494-.351a10.045 10.045 0 0 1 1.821-.155zm-.31 2.041a4.67 4.67 0 0 0-.98.098l-1.143 4.752c.185.044.413.065.685.065.425 0 .812-.079 1.16-.237a2.556 2.556 0 0 0 .89-.661c.244-.283.435-.623.571-1.02a4.03 4.03 0 0 0 .204-1.315c0-.468-.104-.865-.31-1.192-.207-.326-.566-.49-1.077-.49z"></path>
-       </svg>
-    如果你愿意支持我,请给我一杯买咖啡的钱
-     </a>
-    </div>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>美化</tag>
-        <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>搭建博客教程</title>
     <url>/blog-zm/2023/10/20/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/</url>
     <content><![CDATA[<p>我终于拥有了属于自己的博客!<br> <span id="more"></span></p>
@@ -108,7 +52,63 @@ npm install
 </code></pre>
 <p><strong>如果在本地修改了博客，请再次运行hexo generate、hexo deploy命令</strong></p>
 <blockquote>
-<p>出于zm小窝<br><a href="https://yuanzx-ko.github.io/blog-zm/">小窝地址</a><br>zmQQ号:992603016<br>想要自己的网站上友链，请联系<a href="mailto:&#x39;&#57;&#x32;&#x36;&#48;&#51;&#48;&#49;&#54;&#x40;&#113;&#x71;&#46;&#x63;&#x6f;&#x6d;">&#x39;&#57;&#x32;&#x36;&#48;&#51;&#48;&#49;&#54;&#x40;&#113;&#x71;&#46;&#x63;&#x6f;&#x6d;</a>，把自己的网站信息发过去，会看的<br>一个初二生搭建的博客呀</p>
+<p>出于zm小窝<br><a href="https://yuanzx-ko.github.io/blog-zm/">小窝地址</a><br>zmQQ号:992603016<br>想要自己的网站上友链，请联系<a href="mailto:&#57;&#57;&#x32;&#x36;&#48;&#51;&#x30;&#x31;&#54;&#64;&#x71;&#113;&#x2e;&#99;&#x6f;&#109;">&#57;&#57;&#x32;&#x36;&#48;&#51;&#x30;&#x31;&#54;&#64;&#x71;&#113;&#x2e;&#99;&#x6f;&#109;</a>，把自己的网站信息发过去，会看的<br>一个初二生搭建的博客呀</p>
+</blockquote>
+<div style="width: fit-content;
+          undefined
+          undefined
+          padding:8px">
+     <a href="https://liberapay.com/yuan_zm">
+       <svg role="img" style="width: 24px; height:24px; fill:#000000">
+         <path d="M2.32 0A2.321 2.321 0 0 0 0 2.32v19.36A2.321 2.321 0 0 0 2.32 24h19.36A2.32 2.32 0 0 0 24 21.68V2.32A2.32 2.32 0 0 0 21.68 0zm9.208 3.98l-2.27 9.405a2.953 2.953 0 0 0-.073.539.853.853 0 0 0 .09.432.7.7 0 0 0 .334.302c.157.077.378.126.661.147l-.49 2.008c-.772 0-1.38-.1-1.82-.3-.441-.203-.757-.477-.947-.826a2.391 2.391 0 0 1-.278-1.2c.005-.452.068-.933.188-1.445l2.074-8.67zm3.9 3.888c.61 0 1.135.092 1.576.277.44.185.802.438 1.085.76.283.32.493.696.629 1.126.136.43.204.89.204 1.379v.001c0 .794-.13 1.52-.392 2.179a5.16 5.16 0 0 1-1.086 1.706 4.84 4.84 0 0 1-1.665 1.118c-.648.267-1.353.4-2.114.4-.37 0-.74-.033-1.11-.098l-.735 2.956H9.403l2.71-11.298c.435-.13.934-.248 1.494-.351a10.045 10.045 0 0 1 1.821-.155zm-.31 2.041a4.67 4.67 0 0 0-.98.098l-1.143 4.752c.185.044.413.065.685.065.425 0 .812-.079 1.16-.237a2.556 2.556 0 0 0 .89-.661c.244-.283.435-.623.571-1.02a4.03 4.03 0 0 0 .204-1.315c0-.468-.104-.865-.31-1.192-.207-.326-.566-.49-1.077-.49z"></path>
+       </svg>
+    如果你愿意支持我,请给我一杯买咖啡的钱
+     </a>
+    </div>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>编程</tag>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>live2d看板娘教程</title>
+    <url>/blog-zm/2023/10/21/live2d%E7%9C%8B%E6%9D%BF%E5%A8%98%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<p>添加live2d看板娘可能会导致博客访问速度慢…<br> <span id="more"></span></p>
+<h1 id="可爱的live2d看板娘教程来喽"><a href="#可爱的live2d看板娘教程来喽" class="headerlink" title="可爱的live2d看板娘教程来喽"></a>可爱的live2d看板娘教程来喽</h1><ul>
+<li>第一步,安装live2d模块</li>
+</ul>
+<pre><code>npm install --save hexo-helper-live2d
+</code></pre>
+<ul>
+<li><p>第二步,下载live2d模型<br>新建一个live2dModel文件夹,将下载的live2d模型放进去</p>
+</li>
+<li><p>第三步，在站点配置文件中新增如下内容</p>
+</li>
+</ul>
+<pre><code>live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: &lt;u&gt;live2d-widget-model-hibiki&lt;/u&gt; #下载的模型名字
+display:
+   position: right
+   width: 150
+   height: 300
+   mobile:
+     show: true  #手机上是否展示
+</code></pre>
+<p><strong>最后再重新生成一下静态文件,部署，就可以看到live2d模型啦</strong></p>
+<blockquote>
+<p>出于zm小窝<br><a href="https://yuanzx-ko.github.io/blog-zm/">小窝地址</a><br>zmQQ号:992603016<br>想要自己的网站上友链，请联系<a href="mailto:&#x39;&#x39;&#x32;&#x36;&#48;&#51;&#x30;&#49;&#54;&#x40;&#113;&#x71;&#x2e;&#x63;&#111;&#109;">&#x39;&#x39;&#x32;&#x36;&#48;&#51;&#x30;&#49;&#54;&#x40;&#113;&#x71;&#x2e;&#x63;&#111;&#109;</a>，把自己的网站信息发过去，会看的<br>一个初二生搭建的博客呀</p>
 </blockquote>
 <div style="width: fit-content;
           undefined
@@ -127,7 +127,7 @@ npm install
       </categories>
       <tags>
         <tag>博客</tag>
-        <tag>编程</tag>
+        <tag>美化</tag>
       </tags>
   </entry>
 </search>
